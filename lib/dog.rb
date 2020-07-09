@@ -15,7 +15,7 @@ class Dog
   
   def self.print_all
     @@all.each do |deg|
-      puts deg.@name 
+      puts deg.name 
     end 
   end 
   
