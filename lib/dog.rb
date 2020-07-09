@@ -13,4 +13,9 @@ class Dog
     @@all = []
   end 
   
+  def self.print_all
+    @@all.each do |deg|
+      puts deg.name 
+    end 
+  
 end 
