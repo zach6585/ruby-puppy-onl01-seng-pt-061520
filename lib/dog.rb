@@ -2,7 +2,7 @@ class Dog
   @@all = []
   def initialize(name)
     @name = name 
-    
+    self.save 
   end 
   
   def name
@@ -22,5 +22,8 @@ class Dog
       puts deg.name 
     end 
   end 
+  
+  def self.save
+    
   
 end 
