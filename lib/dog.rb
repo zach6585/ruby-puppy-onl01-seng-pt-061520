@@ -17,5 +17,6 @@ class Dog
     @@all.each do |deg|
       puts deg.name 
     end 
+  end 
   
 end 
